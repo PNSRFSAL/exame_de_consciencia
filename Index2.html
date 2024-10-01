@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orações</title>
+    <link rel="shortcut icon" href="logo igreja.png" type="image/x-icon">
+    <link rel="stylesheet" href="css2.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f1f1f1;
+            color: #000;
+            margin: 0;
+            text-align: left;
+            transition: opacity 0.5s ease-in-out;
+            opacity: 0;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+
+        .Minha-logo {
+            height: 80px;
+            width: 100px;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+
+        .menu li {
+            margin-right: 10px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #000;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .menu li a:hover {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        .container {
+            margin: 20px auto;
+            width: 70%;
+        }
+
+        .jogos-container {
+            border: 2px solid #ddd;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .jogos-container h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer.imagem-inferior-direita {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            width: 100px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .header {
+                flex-direction: column;
+            }
+
+            .menu {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu li {
+                margin: 5px 0;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo igreja.png" alt="Logo" class="Minha-logo">
+        <nav>
+            <ul class="menu">
+                    <li><a href="teste 2.html">Exame de Consciência</a></li>
+                    <li><a href="Index2.html">Orações</a></li>
+                    <li><a href="meus pecados.html">Meus Pecados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="jogos-container">
+            <h2>Ato de Contrição</h2>
+            <p>Meu Jesus, meu bom Jesus, que por mim morreste na cruz, perdoa os meus pecados. Já não quero mais pecar. Amém.</p>
+
+            <h2>Pai Nosso</h2>
+            <p>Pai nosso, que estais nos Céus, santificado seja o Vosso Nome; venha a nós o Vosso Reino, seja feita a Vossa vontade assim na terra como no Céu. O pão nosso de cada dia nos dai hoje; perdoai-nos as nossas ofensas assim como nós perdoamos a quem nos tem ofendido; e não nos deixeis cair em tentação, mas livrai-nos do mal. Amém.</p>
+
+            <h2>Ave Maria</h2>
+            <p>Ave Maria, cheia de graça, o Senhor é convosco; bendita sois Vós entre as mulheres e bendito é o fruto do Vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.</p>
+
+            <h2>Santo Anjo</h2>
+            <p>Santo Anjo do Senhor, meu zeloso guardador, se a ti me confiou a piedade divina, sempre me rege, guarda, governa e ilumina. Amém.</p>
+
+            <h2>Vinde Espírito Santo</h2>
+            <p>Vinde Espírito Santo, enchei os corações dos vossos fiéis e acendei neles o fogo do Vosso Amor. Enviai o Vosso Espírito e tudo será criado e renovareis a face da terra.<br> Oremos: Ó Deus que instruíste os corações dos vossos fiéis, com a luz do Espírito Santo, fazei que apreciemos retamente todas as coisas segundo o mesmo Espírito e gozemos da sua consolação. Por Cristo Senhor Nosso. Amém.</p>
+        </div>
+    </section>
+
+    
+
+    <script>
+        window.onload = function() {
+            document.body.style.opacity = "1";
+        };
+    </script>
+</body>
+</html>
